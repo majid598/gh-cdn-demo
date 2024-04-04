@@ -8,4 +8,8 @@ h2.style.color = "yellow";
 
 style.appendChild(h2);
 
-console.log(localStorage.getItem("data"));
+const p = document.createElement('p')
+p.innerHTML = "Say Hi"
+p.style.color = 'white'
+
+style.appendChild(p)
